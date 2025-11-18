@@ -180,7 +180,7 @@ services:
     restart: unless-stopped
     environment:
       - PORT=3000
-      - ROOT_URL=https://chat.ehs.eti.br
+      - ROOT_URL=https://chat.meudominio.com.br
       - MONGO_URL=mongodb://rocketchat:Key(mudar)@172.16.0.75:27017/rocketchat?replicaSet=rs0&authSource=admin
       - MONGO_OPLOG_URL=mongodb://rocketchat:Key(mudar)@172.16.0.75:27017/local?replicaSet=rs0&authSource=admin
       - DEPLOY_METHOD=docker
